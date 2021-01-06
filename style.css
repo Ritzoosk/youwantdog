@@ -1,0 +1,28 @@
+body {
+    background-color: bisque;
+}
+
+header, footer {
+    background-color: aquamarine;    
+}
+
+.dogpics {
+    height: 150px;
+    width: 150px;
+    border: solid black 1pt;
+}
+
+li {
+    border: solid black 1pt;
+    display: inline;    
+}
+
+section {
+    display: flex;    
+}
+
+p {
+    height: 150px;
+    width: 150px;
+    border: solid black 1pt; 
+}
