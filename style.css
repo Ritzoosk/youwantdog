@@ -1,28 +1,46 @@
 body {
-    background-color: bisque;
+    background-color: rgb(214, 214, 214);
 }
 
 header, footer {
+    text-align: center;
+    height: 50px;
+    
     background-color: aquamarine;    
 }
 
 .dogpics {
     height: 150px;
     width: 150px;
-    border: solid black 1pt;
+    /* display: flex; */
+    border: solid black 5pt;
 }
 
 li {
+    background-color: rgb(127, 255, 255);
     border: solid black 1pt;
-    display: inline;    
+    display: inline; 
+    margin: 10px;
+    padding: 5px; 
+      
 }
 
+.dogs_avail {
+    display: flex;
+}
 
-section {
+.dog_bio {
+    justify-content: flex-end;
+    padding: 15px;
+    margin: 15px;
+
+    
     background-color: aquamarine;
     text-align: center;
     border: solid black 1px
+    
 }
+
 p {
     height: 150px;
     width: 150px;
