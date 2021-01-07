@@ -17,12 +17,39 @@ li {
     display: inline;    
 }
 
-section {
-    display: flex;    
-}
 
+section {
+    background-color: aquamarine;
+    text-align: center;
+    border: solid black 1px
+}
 p {
     height: 150px;
     width: 150px;
     border: solid black 1pt; 
 }
+
+/* .dog_avail {
+    display: grid;
+} */
+
+/* .dog_bios {
+    display: inline;
+} */
+
+/* .wrapper{
+    max-height: 350px;
+    border: 1px solid #ddd;
+    display: flex;
+    overflow-x: auto;
+
+}
+
+.wrapper .item{
+    min-width: 180px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    background-color: #ddd;
+
+} */
