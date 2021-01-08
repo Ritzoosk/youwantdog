@@ -17,8 +17,8 @@ askAnimalPref()
     
 function bottomMsg(){
     let dogQ = confirm('do you like dogs? (Ok-yes  Cancel-no)S');
-    if (dogQ = true){
-        document.write('<h1> You like dogs! Take one!</h1>');
+    if (dogQ == true){
+        document.write('<h1> You like dogs! Take one!</h1>')
     } else {
         document.write('<h3> You should have a dog even if you dont like them! </h3>')
     }
