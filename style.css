@@ -16,6 +16,14 @@ header, footer {
     border: solid black 5pt;
 }
 
+.leash {
+    height: 15px;
+    width: 15px;
+    /* background-color: aquamarine */
+    /* display: flex; */
+    /* border: solid black 5pt; */
+}
+
 li {
     background-color: rgb(127, 255, 255);
     border: solid black 1pt;
